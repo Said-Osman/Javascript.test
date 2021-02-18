@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energi</title>
+    <script>
+function updateParagraf() {
+    document.getElementById('titel').innerHTML = "The text value got Updated!"
+}
+function getRandomNumber() {
+    document.getElementById('number').innerHTML= Math.random()
+}
+
+function displayCalcution() {
+    document.getElementById('elite').innerHTML = 10*2*2*10*2*10
+}
+    </script>
+</head>
+<body id="body">
+    <button onclick="console.log('work here only')">Console.log</button> 
+    <button onclick="window.print('Print')">Print</button> 
+    <button onclick="updateParagraf()">Status</button>
+
+     <h1 id="titel">The Energi of Javascript</h1>
+    <h1 id="name" style="display: none;">Said</h1>
+    <h2 id="number" onclick="getRandomNumber()">NewNumber?</h2>
+    <h2 id='elite' onclick='displayCalcution()'>Check out</h2>
+<h2 onclick="alert('ERROR')">Display alert!</h2>
+    <img id="lightsoff" src="Img/OFFbulb.jpg" style="width:150px" /> 
+    <br>
+    <button onclick="document.getElementById('lightsoff').src='Img/ONbulb.jpg'">ClickOn</button>
+    <button onclick="document.getElementById('lightsoff').src='Img/OFFbulb.jpg'">ClickOff</button>
+    <button onclick="document.getElementById('titel').style.color='orange'">Update color</button>
+    <button onclick="document.getElementById('body').style.backgroundColor='lightgrey'">Update color</button>
+    <button onclick="document.getElementById('body').style.display='none'">Reset</button>
+    <button onclick="document.getElementById('name').style.display='block'">Name</button>
+    <button onclick="document.getElementById('titel').style.fontSize='80px'">80K</button>
+
+
+
+
+    
+</body>
+</html>
