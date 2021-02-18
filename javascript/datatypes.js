@@ -1,4 +1,4 @@
-const greetUser = 'Hey! Welcome to my website!' //String
+const greetUser = 'Hey! And welcome to official site' //String
 const age = 28 //Number
 const x = undefined //undefined - no value
 const isTeacher = true //Boolean
