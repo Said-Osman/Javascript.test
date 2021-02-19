@@ -26,17 +26,18 @@ function logicalOperators() {
 }
 
 /*  
-jamförelse
-
-==   / 
-===  /
-!=   /
-!==  /
->    /
-<    /
->=   /
-<=   / 
-&&   /
-||   /
-
+EQUAL LIST
+---------------------------------------------------------------------------------------------------------------------
+==   / 	Equal to: true if the operands are equal
+===  / Strict equal to: true if the operands are equal and of the same type
+!    / Logical NOT: true if the operand is false and vice-versa.   
+!=   / 	Equal to: true if the operands are equal
+!==  /  Strict not equal to: true if the operands are equal but of different type or not equal at all
+>    / Greater than: true if the left operand is greater than the right operand
+<    / Less than: true if the left operand is less than the right operand
+>=   / Greater than or equal to: true if the left operand is greater than or equal to the right operand
+<=   / 	Less than or equal to: true if the left operand is less than or equal to the right operand
+&&   / 	Logical AND: true if both the operands/boolean values are true, else evaluates to false
+||   / Logical OR: true if either of the operands/boolean values is true . evaluates to false if both are false
+-----------------------------------------------------------------------------------------------------------------------
 */
