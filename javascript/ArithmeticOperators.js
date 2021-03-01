@@ -8,6 +8,9 @@ const exponentiation2 = Math.pow(5, 3) //upphöjt - exponentiation
 const root = Math.sqrt(64) //roten ur värdet
 
 
+//Calculation
+
+
 /* let x = 7 * 35
 let increment = x++
 let decrement = x-- */ 
