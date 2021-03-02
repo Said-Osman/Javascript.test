@@ -1,2 +1,4 @@
 let name = ["tom", "lars", "nick"]
-console.log(name[2])
+console.log(name[2]) 
+
+dsd 
