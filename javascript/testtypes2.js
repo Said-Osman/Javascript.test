@@ -1,3 +1,4 @@
+// 
 const x = 10;
 
 if (x <= 10) {
@@ -12,3 +13,10 @@ if (x <= 10) {
  console.log('Sorry but you are NOT Mr. Coffee, Adios amigos haha');
 
 }
+ // 
+
+ function greet(name, age, city) { 
+  console.log(`Hey, my name is ${name} and ${age} years old. Im from ${city}`)
+  } 
+  
+  greet('Said', '32', 'Boston');
